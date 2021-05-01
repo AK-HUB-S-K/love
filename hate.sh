@@ -4,7 +4,6 @@ clear
 #installing cmatrix
 apt-get install cmatrix -y
 clear
-
 figlet -f slant "YOU ARE HACKED" |lolcat
 sleep 2
 echo " "
