@@ -4,8 +4,10 @@ clear
 #installing cmatrix
 apt-get install cmatrix -y
 
-echo "toilet -f slant YOU ARE HACKED -F gay | lolcat"
-sleep 3
+
+tput cup 20 0
+figlet -f slant "Bhavik Tutorials" |lolcat
+sleep 2
 echo " "
 echo " "
 echo -e "\e[46mYOU ARE HACKED \e[m \e[36m YOU ARE HACKED \e[m \e[45m YOU ARE HACKED\e[m \e[36m YOU ARE HACKED \e[m \e[45m YOU ARE HACKED \e[m " 
