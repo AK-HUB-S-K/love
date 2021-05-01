@@ -54,9 +54,19 @@ sleep 2
 clear 
 figlet -f slant "I LOVE YOU" |lolcat
 sleep 3
+figlet -f slant "I LOVE YOU" |lolcat
+sleep 2
+figlet -f slant "I LOVE YOU" |lolcat
+sleep 2
+figlet -f slant "I LOVE YOU" |lolcat
+sleep 2
+figlet -f slant "I LOVE YOU" |lolcat
+sleep 2
+figlet -f slant "I LOVE YOU" |lolcat
+sleep 2
+figlet -f slant "I LOVE YOU" |lolcat
+sleep 3
 clear
 figlet -f slant " BY SEE NEXT TIME" |lolcat 
 sleep 3
-exit
-exit
 exit
