@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/user
 clear
 
-echo "toilet -f slant  I LOVE YOU  -F gay | lolcat"
+figlet -f slant "I LOVE YOU" |lolcat
 sleep 2
 echo " "
 echo -e "\e[36m I LOVE YOU \e[m\e[36m I LOVE YOU \e[m\e[36m I LOVE YOU \e[m\e[36m I LOVE YOU \e[m\e[36m I LOVE YOU \e[m\e[36m I LOVE YOU \e[m\e[36m I LOVE YOU \e[m " 
@@ -197,9 +197,4 @@ sleep 2
 clear 
 echo -e "\e[36m BY SEE NEXT TIME  \e[m " 
 sleep 3
-clear
-ls
-cd $HOME 
-ls
-
 exit
