@@ -103,5 +103,5 @@ tput cup 17 21
    echo " "
 sleep 2
 ls
-bash love.sh
+bash love1.sh
 fi
