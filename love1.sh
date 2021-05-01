@@ -45,9 +45,6 @@ echo " "
 
 echo "[*]Loading... " |lolcat
 sleep 2
-#spinner 
-bash load.sh
-sleep 2
 clear 
 
 clear
