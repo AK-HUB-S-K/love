@@ -63,7 +63,7 @@ echo "[*]Loading... " |lolcat
 sleep 2
 #spinner 
 bash load.sh
-sleep 3.0
+sleep 2
 clear 
 
 
@@ -72,21 +72,23 @@ echo " "
 echo " "
 tput cup 17 21
    echo -e "\e[42m FINISHED ! \e[m"
-sleep 4.0
-
-bash qus.sh
-sleep 2.0
-
+sleep 3
 clear
-
-
-if [ "$answer" = "${answer#[Yy]}" ] ;
+echo " "
+echo " "
+tput cup 15 0
+echo -e  "\e[32mI LOVE YOU \e[m"
+tput cup 17 21
+echo -e  "\e[32mDO YO LOVE ME (y/n)? \e[m"
+read answer
+echo 
+if [ "$answer" != "${answer#[Yy]}" ] ;
 then 
 tput cup 12 22
     echo -e "\e[42mI LOVE YOU \e[m"
 sleep 2
 bash iloveyou.sh
-elif [  "$answer" = "${answer#[Nn]}" ];
+elif [  "$answer" != "${answer#[Nn]}" ];
 then
 tput cup 17 23
    echo -e "\e[42mBUT I LOVE YOU \e[m"
@@ -94,11 +96,12 @@ tput cup 17 23
    echo -e "\e[42m YOU ARE HACKED BY ME \e[m"
 sleep 2
 bash hate.sh 
-elif [  "$answer" != "${answer#[YyNn]}" ];
+elif [  "$answer" = "${answer#[YyNn]}" ];
 then
 tput cup 17 21
    echo -e "\e[42m use y/n to answer me \e[m"
    echo " "
 sleep 2
-bash qus.sh
+ls
+bash love.sh
 fi
