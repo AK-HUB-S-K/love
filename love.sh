@@ -8,11 +8,6 @@ echo " "
 echo -e "\e[32m[*]\e[34m INSTALLING I LOVE YOU    \e[m "
 echo " "
 echo " "
-#Installing the following packages to install I LOVE YOU
-#packing up toilet
-pkg install toilet 
-echo " "
-echo " "
 echo "      
          ╔═════════════════════════════════════════════════════════════╗
          ║█████████████████████████████████████████████████████████████║
@@ -99,7 +94,3 @@ tput cup 17 21
 sleep 2
 bash qus.sh
 fi
-
-
-
-
