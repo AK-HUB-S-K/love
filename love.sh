@@ -10,7 +10,7 @@ echo " "
 echo " "
 #Installing the following packages to install I LOVE YOU
 #packing up toilet
-pkg install toilet -y
+pkg install toilet 
 echo " "
 echo " "
 echo "      
