@@ -21,3 +21,7 @@ $ chmod +x *
 
 $ bash love.sh
 ```
+
+
+### ESCAPE form cmatrix
+## use CTRL+c
