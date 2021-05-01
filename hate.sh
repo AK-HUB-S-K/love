@@ -6,7 +6,7 @@ apt-get install cmatrix -y
 
 
 tput cup 20 0
-figlet -f slant "Bhavik Tutorials" |lolcat
+figlet -f slant "YOU ARE HACKED" |lolcat
 sleep 2
 echo " "
 echo " "
