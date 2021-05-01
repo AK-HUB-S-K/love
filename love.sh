@@ -4,15 +4,13 @@
 #        Author: AJAY O S            #
 ######################################
 echo -e "\e[32m[*]\e[34m WELCOME TO AK HUB TOOLS  \e[m "
-echo
+echo " "
 echo -e "\e[32m[*]\e[34m INSTALLING I LOVE YOU    \e[m "
 echo " "
 echo " "
 #Installing the following packages to install I LOVE YOU
 #packing up toilet
-apt-get install toilet -y
-
-clear
+pkg install toilet -y
 echo " "
 echo " "
 echo "      
@@ -36,7 +34,6 @@ echo "
                                                         "|lolcat
 														
 sleep 3
-
 clear
 echo " "
 echo " "
