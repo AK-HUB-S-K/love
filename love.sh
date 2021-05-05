@@ -11,7 +11,14 @@ echo " "
 #Installing the following packages to install I LOVE YOU
 # packing up figlet
 apt-get install figlet -y
-
+apt-get update
+apt-get upgrade -y
+apt-get install python -y
+apt-get install figlet -y
+apt-get  install ruby -y
+pip install lolcat
+gem install lolcat
+apt-get install toilet -y
 
 clear
 echo " "
